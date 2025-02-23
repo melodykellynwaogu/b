@@ -1,0 +1,112 @@
+* {
+    scroll-behavior: smooth;
+}
+body {
+    background: linear-gradient(135deg, #153677, #4e085f);
+    color: #fff;
+    font-size: 16px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 10px;
+    padding: 10px;
+}
+header {
+    text-align: center;
+    color:bisque;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 20px;
+    margin: 10px;
+    padding: 10px;
+}
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: white;
+    padding: 15px;
+    display: flex; /* use the flexbox to align links */
+    justify-content: center; /* Center align links */
+    gap: 50px; /* space out the links */
+    text-align: center;
+    z-index: 1000;
+}
+.navbar :hover {
+    color: red;
+}
+figcaption {
+    text-align: right;
+    margin: 20px 0;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+figcaption img {
+    width: 24%;
+    height: auto;
+    border-radius: 900000px;
+}
+figcaption p {
+    margin: 10px 0;
+    font-size: 1.1em;
+    color: #fff;
+    font-family: Arial, sans-serif;
+}
+#home h2 {
+    font-family: Arial;
+    font-size: 1.9em;
+    color:bisque;
+}
+#home p {
+    font-family:monospace
+}
+.contanier img {
+    width: 200px;
+    max-width:fit-content;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 30px; 
+}
+.contanier {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 20px 20px;
+}
+#dishes h2 {
+    font-size: 1.9em;
+    font-family:Arial, Helvetica, sans-serif;
+    color:bisque;
+}
+#dishes h3 {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: large;
+}
+#dishes img {
+    width: 200px;
+    max-width:fit-content;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 30px;
+    padding: 10px;
+    margin: 10px;
+}
+#dishes  ul, #dishes  li {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color:#fff;
+    font-size:large;
+    
+}
+#dishes p {
+    color: #fff;
+    font-size: 1.2em;
+    font-family: cursive;
+}
+article h3 {
+    font-size: 2rem;
+    font-family: cursive;
+}
